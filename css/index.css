@@ -164,10 +164,10 @@ header .navigation {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: #81848E;
 }
 header .logo h1 {
-  font-size: 3rem;
-  padding: 2rem;
+  font-size: 3.5rem;
 }
 @media (max-width=500px) {
   header .logo h1 {
@@ -175,14 +175,13 @@ header .logo h1 {
   }
 }
 header nav {
-  width: 100%;
-  margin-top: 1.5rem;
-  padding: 2%;
+  margin: 1.5rem;
 }
 header nav a {
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
+  margin: 2rem;
 }
 footer {
   color: #22283B;
