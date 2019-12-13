@@ -1,1 +1,32 @@
 // Navigation code here
+
+header {
+	.navigation {
+		display:flex;
+		flex-direction:column;
+		text-align:center;
+		background-color: @porcelain;
+		padding: 5px;
+	}
+	
+	.logo h1 {
+		font-size: 3.5rem;
+        @media @phone {
+            text-align:center;
+        }
+	}
+	nav {
+		a {
+			text-decoration: none;
+			color: black;
+			font-size: 1.5rem;
+			margin:1.5rem;
+			@media @phone{
+				font-size: 1rem;
+				margin: 1rem;
+			}
+			
+		}
+	}
+}
+// header
