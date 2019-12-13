@@ -5,22 +5,26 @@ header {
 		display:flex;
 		flex-direction:column;
 		text-align:center;
-		background-color: @waterloo;
+		background-color: @porcelain;
+		padding: 5px;
 	}
 	
 	.logo h1 {
 		font-size: 3.5rem;
-        @media @mobile {
+        @media @phone {
             text-align:center;
         }
 	}
 	nav {
-		margin: 1.5rem;
 		a {
 			text-decoration: none;
 			color: black;
 			font-size: 1.5rem;
-			margin:2rem;
+			margin:1.5rem;
+			@media @phone{
+				font-size: 1rem;
+				margin: 1rem;
+			}
 			
 		}
 	}

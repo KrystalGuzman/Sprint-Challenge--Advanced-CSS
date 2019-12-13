@@ -7,7 +7,7 @@
     text-align: center;
     height: 30px;
     font-size: 2rem;
-    border-radius: 10px;
+    border-radius: 5px;
     color:@font-color;
     padding: 1%;
   }
@@ -16,8 +16,8 @@
     width: @width;
     text-align: left;
   }
-.mobile-columns(){
-  flex-direction: column;
+.mobile-columns(@direction:column){
+  flex-direction: @direction;
   justify-content: center;
   align-content: center;
 }
